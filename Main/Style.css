@@ -1,0 +1,95 @@
+.flex-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    
+   
+} 
+
+.flex-space-around{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.carousel-control-next {
+    display: none;
+}
+
+.carousel-control-prev{
+    display: none;
+}
+
+.flex-space-between{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 5px;
+}
+.stage2{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    padding: 5px;
+    
+   
+}
+
+.sticky{
+    position: sticky;
+    background-color: aqua;
+    padding: 10px;
+    top:0;
+    z-index: 30;
+    border: 2px solid 
+    rgb(248, 245, 245);
+}
+
+#ex-title{
+    background-color: #071187;
+            color: white;
+            border-radius: 7px;
+            padding: 30px;
+            border: none;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fixed-1{
+    
+    position: fixed;
+    width: 300px;
+    top: 150;
+    right: 150;
+    
+   
+}
+
+.absolute-1{
+    margin-top: 1000px;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    
+}
+
+.link-flex{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.btn-btn-primary-btn-lg1:hover{
+    color: white;
+    
+}
+
+.btn-btn-primary-btn-lg1:hover{
+    background-color: #071187;
+}
